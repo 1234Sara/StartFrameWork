@@ -1,0 +1,13 @@
+.contact{
+    color: #2C3E50;
+    padding-block: 150px;
+}
+
+.buttonColor{
+    background-color: #1abc9c !important;
+    border: none !important;
+}
+
+.labelContact{
+    color: var(--main-color) !important;
+}

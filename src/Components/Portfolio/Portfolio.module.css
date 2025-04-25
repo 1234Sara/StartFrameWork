@@ -1,0 +1,45 @@
+.port{
+    color: #2C3E50;
+    padding-block: 180px;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 23px;
+    right: 0;
+    width: 90%;
+    transition: all 0.4s;
+}
+
+.layer:hover{
+    background-color: rgb(25, 175, 142, 0.8);
+    top: 0;
+    cursor: pointer;
+}
+
+.plusColor{
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: none;
+    transition: all 0.4s;
+    margin: 25% 0;
+}
+
+.layer:hover .plusColor{
+    display: block;
+}
+
+.lightbox{
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+.imgw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

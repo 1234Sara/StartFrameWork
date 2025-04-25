@@ -1,0 +1,9 @@
+.home{
+    background-color: var(--main-color);
+    color: #fff;
+    padding-block: 100px;
+}
+
+.img{
+    width: 280px;
+}
